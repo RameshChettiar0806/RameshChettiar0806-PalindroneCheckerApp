@@ -1,6 +1,6 @@
 /**
  *
- * MAIN CLASS - UseCase3PalindromeCheckerApp
+ * MAIN CLASS - UC03PallindromeCheckerApp
  *
  * Use Case 3: Reverse String Based Palindrome Check
  *
@@ -17,7 +17,7 @@
  *
  * This introduces transformation-based validation.
  *
- * @author Developer
+ * @author Ramesh
  * @version 3.0
  */
 
