@@ -1,9 +1,10 @@
-# IntelliJ files
+# IntelliJ
 .idea/
 *.iml
 
 # Compiled Java files
 *.class
 
-# IntelliJ build output
+# Build folders
 out/
+build/
