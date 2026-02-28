@@ -19,7 +19,7 @@
  * @author Developer
  * @version 1.0
  */
-public class PalindromeCheckerApp {
+public class UC01PallindromeCheckerApp {
 
     /**
      * Application entry point.
