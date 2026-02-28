@@ -1,6 +1,6 @@
 /**
  *
- * MAIN CLASS - UseCase2PalindromeCheckerApp
+ * MAIN CLASS - UC02PalindromeCheckerApp
  *
  * Use Case 2: Hardcoded Palindrome Validation
  *
@@ -17,7 +17,7 @@
  * This use case introduces fundamental comparison logic
  * before using advanced data structures.
  *
- * @author Developer
+ * @author Ramesh
  * @version 2.0
  */
 public class UC02PalindromeCheckerApp {
