@@ -17,7 +17,7 @@
  * This reduces extra memory usage.
  *
  * @author Ramesh
- * @version 4.0
+ * @version 4.8
  */
 
 import java.util.Scanner;
@@ -27,27 +27,26 @@ public class UC04PallindromeCheckerApp {
     /**
      * Application entry point for UC4.
      *
-     * @param args Command-line arguments
+     * @param args Command-Line arguments
      */
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("=== Use Case 4: Character Array Based Palindrome Check ===");
+        System.out.println("=== UC4: Character Array Based Palindrome Check ===");
         System.out.print("Enter a string: ");
         String input = scanner.nextLine();
 
         // Convert string to character array
-        char[] characters = input.toCharArray();
+        char[] charArray = input.toCharArray();
 
-        // Two-pointer technique
         int start = 0;
-        int end = characters.length - 1;
-
+        int end = charArray.length - 1;
         boolean isPalindrome = true;
 
+        // Two-pointer comparison
         while (start < end) {
-            if (characters[start] != characters[end]) {
+            if (charArray[start] != charArray[end]) {
                 isPalindrome = false;
                 break;
             }
